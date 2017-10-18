@@ -1,0 +1,39 @@
+/* 
+    Document   : controlStyle_DB_Backup
+*/
+
+.root{
+    -fx-font-size: 16pt;
+    -fx-font-family: "Courier New";
+    -fx-base: rgb(95, 4, 254);
+    -fx-background: rgb(155, 147, 255);
+}
+
+.button{
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-weight: bold;
+    -fx-border-color: rgb(209, 208, 240);
+    -fx-border-radius: 5;
+}
+
+.borders{
+    -fx-border-color: rgb(253, 255, 255);
+    -fx-border-style: dotted;
+    -fx-border-width: 1.5;
+    -fx-border-insets: -5;
+}
+
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 16;
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-display-caret:false;
+}
+
+.text-area .content {
+    -fx-background: #f4f9f0;
+}
+
+.pane{
+    -fx-background: #f4f9f0;
+}
